@@ -1,0 +1,16 @@
+{
+  "name": "restapi-nodejs",
+  "version": "1.0.0",
+  "description": "app rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "restapi"
+  ],
+  "author": "niel",
+  "license": "ISC"
+}
