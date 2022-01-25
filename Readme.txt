@@ -7,3 +7,4 @@ Buat API Node JS
 - touch res.js
 - touch controller.js
 - touch router.js
+- npm i morgan
