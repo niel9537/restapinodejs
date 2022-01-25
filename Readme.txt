@@ -8,3 +8,6 @@ Buat API Node JS
 - touch controller.js
 - touch router.js
 - npm i morgan
+- npm install ip
+- npm i jsonwebtoken
+- npm i md5
