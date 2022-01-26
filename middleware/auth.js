@@ -26,7 +26,7 @@ exports.registrasi = function(req,res){
         if(error){
             console.log(error);
         }else{
-            //Jika belum ada email terdaftar
+            //Jika belum ada email yang terdaftar
             if(rows.length == 0){
                 var query = "INSERT INTO ?? SET ?";
                 var table = ["user"];
