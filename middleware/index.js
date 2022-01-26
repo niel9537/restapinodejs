@@ -9,5 +9,5 @@ router.post('/api/v1/register', auth.registrasi);
 //daftarkan menu login
 router.post('/api/v1/login', auth.login);
 //alamat yang perlu otorisasi
-router.get('/api/v1/rahasia', verifikasi(2), auth.halamanrahasia);
+router.get('/api/v1/rahasia', verifikasi(), auth.halamanrahasia);
 module.exports = router;
