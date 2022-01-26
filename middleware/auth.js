@@ -60,7 +60,7 @@ exports.login = function(req,res){
         if(error){
             console.log(error);
         }else{
-            if(rows==1){
+            if(rows.length==1){
                 var token = jwt.sign({rows}, config.secret,{
                     expiresIn: 1440
                 });
@@ -68,8 +68,8 @@ exports.login = function(req,res){
 
                 var data = {
                     id_user : id_user,
-                    access_toke : token,
-                    ip_addrress : ip.address()
+                    access_token : token,
+                    ip_address : ip.address()
                 }
 
                 var query = "INSERT INTO ?? SET ?";
